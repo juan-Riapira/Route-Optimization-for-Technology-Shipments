@@ -8,14 +8,14 @@ public class OrdenDelivery {
 
     private int id;
     private Responsible responsible;
-    private Shooper shopper;
+    private Shopper shopper;
     private LocalDate deadLine;
     private String state;
     private String addressee;
     private String description;
     private String observation;
 
-    public OrdenDelivery(int id, Responsible responsible, Shooper shopper, LocalDate deadLine, String state,
+    public OrdenDelivery(int id, Responsible responsible, Shopper shopper, LocalDate deadLine, String state,
             String addressee, String description, String observation) {
         this.id = id;
         this.responsible = responsible;
@@ -43,11 +43,11 @@ public class OrdenDelivery {
         this.responsible = responsible;
     }
 
-    public Shooper getShopper() {
+    public Shopper getShopper() {
         return shopper;
     }
 
-    public void setShopper(Shooper shopper) {
+    public void setShopper(Shopper shopper) {
         this.shopper = shopper;
     }
 
