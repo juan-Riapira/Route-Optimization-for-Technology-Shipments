@@ -1,4 +1,4 @@
-package com.example.model;
+package co.edu.uptc.model;
 
 import java.util.ArrayList;
 

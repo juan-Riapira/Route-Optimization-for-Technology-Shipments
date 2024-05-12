@@ -1,9 +1,7 @@
 package co.edu.uptc.model;
 
 import java.time.LocalDate;
-
-import javafx.scene.chart.PieChart.Data;
-
+//import javafx.scene.chart.PieChart.Data;
 public class OrdenDelivery {
 
     private int id;
